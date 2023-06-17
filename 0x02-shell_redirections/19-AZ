@@ -1,3 +1,2 @@
 #!/bin/bash
-read -p "Enter input: " input
-echo "$input" | tr 'A' 'Z' | tr 'c' 'e'
+read -s -p "Enter input: " input; echo $(echo "$input" | tr 'A' 'Z' | tr 'c' 'e')
