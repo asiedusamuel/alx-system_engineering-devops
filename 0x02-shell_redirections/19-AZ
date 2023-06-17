@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "$1" | tr 'A' 'Z' | tr 'c' 'e')
+echo "$1" | tr 'Ac' 'Ze'
