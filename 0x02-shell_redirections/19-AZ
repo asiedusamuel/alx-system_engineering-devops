@@ -1,2 +1,2 @@
 #!/bin/bash
-read -s input; echo $(echo "$input" | tr 'Aa' 'Zz' | tr 'c' 'e')
+read -s input; echo $(echo "$input" | tr 'A' 'Z' | tr 'c' 'e')
